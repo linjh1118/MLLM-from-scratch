@@ -31,4 +31,4 @@
 <div align=center>
   <h2>Connect or Join us</h2>
 </div>
-> &emsp;&emsp;想要深度参与的同学可以通过我的主页联系我，我会将你加入到项目的维护者中。
+> &emsp;&emsp;想要深度参与的同学可以通过[我的主页](https://github.com/linjh1118)联系我，我会将你加入到项目的维护者中。
