@@ -18,6 +18,7 @@ dataset = load_dataset('parquet', data_files={
     'unsupervised': f'{data_dir}/unsupervised-00000-of-00001.parquet'
 })
 
+# 1. zsh $ wandb login (later will prompt you input your wandb apikey)   2. wandb init, wandb log, (wandb finish).  3. You could watch the progress online.  
 # 初始化wandb
 wandb.init(project="simple-text-classification")
 # 加载预训练模型和分词器
