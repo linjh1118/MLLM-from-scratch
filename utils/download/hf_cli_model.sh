@@ -8,7 +8,8 @@ huggingface-cli download \
   --resume-download \
   $model_id \
   --local-dir $local_dir \
-  --exclude "*\.(msgpack\|h5\|ot)"
+  --exclude "*.msgpack" "*.onnx" "*.ot" "*.h5"
+  # --exclude "*\.(msgpack\|h5\|ot)"
 
 # how to use:
 # bash utils/download/hf_cli_model.sh <model_repo_id> <where_to_save_model>
