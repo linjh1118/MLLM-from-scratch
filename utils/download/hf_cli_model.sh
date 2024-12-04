@@ -21,3 +21,13 @@ huggingface-cli download \
 # $pip install -U huggingface_hub[cli]
 # 2. 登录【PS: 从 https://huggingface.co/settings/tokens 获取access token】
 # $huggingface-cli login  # PS: 之后根据提示输入hf_token
+
+
+
+# 上边不是最优选项了
+# 将以上东西写到bashrc中，或者终端会话中直接执行
+# ⭐️
+# export HF_ENDPOINT=https://hf-mirror.com
+# export HF_HOME=/workspace/common/ljh/hf_home/
+# huggingface-cli --resume-download download Qwen/Qwen2-VL-2B-Instruct
+
