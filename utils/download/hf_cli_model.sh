@@ -30,4 +30,5 @@ huggingface-cli download \
 # export HF_ENDPOINT=https://hf-mirror.com
 # export HF_HOME=/workspace/common/ljh/hf_home/
 # huggingface-cli --resume-download download Qwen/Qwen2-VL-2B-Instruct
+# /workspace/common/ljh/hf_home/hub/models--Qwen--Qwen2-VL-2B-Instruct/snapshots/aca78372505e6cb469c4fa6a35c60265b00ff5a4
 
